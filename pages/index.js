@@ -10,9 +10,6 @@ const Home = () => {
       <div className={styles.connect}>
         <ConnectWallet
           auth={{
-            loginConfig: {
-              onError: (error) => console.log(error),
-            },
             loginOptional: false,
           }}
         />
