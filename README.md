@@ -60,7 +60,7 @@ Inside the [\_app.jsx](./pages/_app.jsx) file, we configure the Auth SDK in the 
 
 ```jsx
   <ThirdwebProvider
-      desiredChainId={activeChainId}
+      activeChain={activeChain}
       authConfig={{
         domain: "example.org",
         authUrl: "/api/auth",
